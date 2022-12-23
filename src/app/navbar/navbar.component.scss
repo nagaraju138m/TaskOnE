@@ -1,0 +1,20 @@
+
+body{
+  padding: 4px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  .navlist{
+    display: inline-block;
+
+    a{
+      text-decoration: none;
+      padding-left: 8px;
+    }
+  }
+
+}
+
+
