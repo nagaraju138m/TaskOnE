@@ -1,2 +1,21 @@
 <app-navbar></app-navbar>
-<p>login works!</p>
+
+<div class="main">
+  <h2>Register Form</h2>
+  <form action="">
+    <div class="formfields">
+      <div class="row1 mb-5">
+        <label class="col-6" for="email">Email</label>
+        <input class="col-6" type="email" placeholder="Enter Email">
+      </div>
+      <div class="row1 mb-5">
+        <label class="col-6" for="password">Password</label>
+        <input class="col-6" type="password" placeholder="Enter Password">
+      </div>
+      <div class="row1 mb-5">
+        <button class="btn btn-success">Login</button>
+        <a [routerLink]="['/register']">Create Account</a>
+      </div>
+    </div>
+  </form>
+</div>

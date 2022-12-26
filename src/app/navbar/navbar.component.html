@@ -1,13 +1,13 @@
 
-<div class="navbar">
-  <ul class="navlist">
+<div class="navbar1">
+  <div class="navlist1">
     <a [routerLink]="['/home']">Home</a>
     <a [routerLink]="['/about']">About</a>
-    <a [routerLink]="['/home']">contact</a>
-    <a [routerLink]="['/home']">Register</a>
-  </ul>
+    <a [routerLink]="['/contact']">contact</a>
+    <a [routerLink]="['/login']">Login</a>
+  </div>
   <div class="navRight">
-    <button class="navReg">Register</button>
+    <button [routerLink]="['/register']" class="navReg btn btn-primary">Register</button>
 
   </div>
 </div>

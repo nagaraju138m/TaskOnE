@@ -1,0 +1,25 @@
+.main{
+  display: flex;
+  // justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20vmin;
+  h2{
+    color: rgb(17, 0, 255);
+  }
+  form{
+    border: 1px solid rgb(23, 46, 23);
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    width: 55%;
+  }
+  .formfields{
+    width: 80%;
+    .btn{
+      margin-left: 4%;
+      padding-left: 15px;
+    }
+  }
+}
